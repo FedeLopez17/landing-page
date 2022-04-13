@@ -97,6 +97,7 @@ ul.header-links {
     justify-content: center;
     align-items: center;
     padding: 100px;
+    padding-top: 30px;
     flex: 1;
 }
 

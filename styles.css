@@ -13,10 +13,10 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    gap: 100px;
     flex: 1;
     padding: 100px;
     padding-top: 16px;
+    gap: 70px;
 }
 
 .header-container-one{
@@ -25,12 +25,31 @@ a {
     justify-content: space-around;
     color: white;
     margin: 0, 64px;
+    border-bottom-style: solid;
+    border-color: white;
+    
 }
 
 .logo {
+    display: flex;
     font-size: 24px;
     font-weight: bold;
+    gap: 8px;
 }
+
+.logo-text {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    flex-wrap: nowrap;
+}
+
+.logo-image {
+    flex: 1, 0, auto;
+    width: 70px;
+    max-width: 70px;
+}
+
 
 .header-container-two{
     display: flex;
@@ -47,6 +66,7 @@ a {
     max-width: 500px;
     gap:10px;
     margin-right: 32px;
+    justify-content: center;
 }
 
 .bigger-font { 
@@ -73,12 +93,19 @@ a {
 
 .header-image {
     display: flex;
-    background-color: grey;
     flex: 1;
     max-width: 600px;
     justify-content: center;
     align-items: center;
+    background-color: #a8a9ac;
+    border-radius: 64px;
 }
+
+.header-image .image {
+    flex: 1;
+    max-width: 600px;
+}
+
 
 ul.header-links {
     display: flex;
@@ -88,6 +115,7 @@ ul.header-links {
     padding: 0;
     gap: 12px;
     font-size: 18px;
+    margin-top: 6px;
 }
 
 .outer-container.two {
@@ -125,6 +153,7 @@ ul.header-links {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    border-width: 4px;
 }
 
 .descriptions-container {
@@ -140,6 +169,8 @@ ul.header-links {
     height: 50px;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
@@ -215,11 +246,13 @@ ul.header-links {
     color: white;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
 }
 
-
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
 
